@@ -26,6 +26,22 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Config
+
+- Dentro del archivo src/app.module.ts setear los datos de la BD
+```bash
+  TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: 'localhost',
+      port: 3306,
+      username: 'root',
+      password: '',
+      database: 'fintechvank',
+      entities: [Customer,Invoice],
+      synchronize: true,
+  }),
+```
+
 ## Installation
 
 ```bash

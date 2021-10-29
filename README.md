@@ -49,9 +49,14 @@
 ```bash
 - customers.controller.ts : dentro de este archivo se definen todas las rutas para customers
 - customers.service.ts : dentro de este archivo se definen todos los servicios asociados para customers
+- entities/customer.entity.ts : dentro de este archivo se define el modelo de customers para la base de datos
 ```
 - src/invoices
-
+```bash
+- invoices.controller.ts : dentro de este archivo se definen todas las rutas para invoices
+- invoices.service.ts : dentro de este archivo se definen todos los servicios asociados para invoices y ademas se encuentra el metodo que se ejecuta una vez al dia para traer toda la información de un archivo csv remoto getCsvData()
+- entities/invoices.entity.ts : dentro de este archivo se define el modelo de customers para la base de datos
+```
 
 ## Installation
 

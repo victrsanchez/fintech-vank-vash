@@ -42,6 +42,17 @@
   }),
 ```
 
+
+## Estructura
+
+- src/customers
+```bash
+- customers.controller.ts : dentro de este archivo se definen todas las rutas para customers
+- customers.service.ts : dentro de este archivo se definen todos los servicios asociados para customers
+```
+- src/invoices
+
+
 ## Installation
 
 ```bash
